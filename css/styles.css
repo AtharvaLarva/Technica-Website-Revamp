@@ -10,6 +10,7 @@
   src: url('../fonts/DINPro-Bold.otf');
 }
 
+/* changes color of main navigation bar to pink */
 #main-nav{
   background-color: #ff7bac;
 }
@@ -27,11 +28,12 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'DINPro', 'Helvetica', sans-serif ;
 }
 
+/* changes backgroudn color of btn-xl */
 .btn-xl{
   font-family: 'DINPro', 'Helvetica', 'sans-serif' ;
-  background-color: #ff7bac;
-  border-color: black;
-  border-width:thick;
+  background-color: red;
+  border-color: red;
+  border-width:thin;
 }
 
 .navbar-custom .navbar-brand {
@@ -39,23 +41,28 @@ h1,h2,h3,h4,h5,h6 {
     color: white;
 }
 
+/* changes mobile navbar background color to pink */
 .navbar-custom .navbar-toggle {
   font-family: 'DINPro','Helvetica', 'sans-serif' ;
   background-color: #ff7bac;
   border-color: #ff7bac;
 }
 
-/* changes navbar hover color to blue */
+/* changes font of list elements in navbar, smooths expansion hover animation*/
+.navbar-custom .nav li a {
+  font-family: 'DINPro', 'Helvetica', 'sans-serif' ;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+/* changes navbar hover color to white */
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #00ffff;
+  transform: scale(1.1, 1.1); /** default is 1, scale it to 1.5 */
+  color: white;
   outline: none;
 }
 
-
-.navbar-custom .nav li a {
-  font-family: 'DINPro', 'Helvetica', 'sans-serif' ;
-}
 
 header .intro-text .intro-lead-in {
   font-family: 'DINPro', 'Helvetica', 'sans-serif' ;
@@ -171,16 +178,6 @@ header .intro-text .intro-heading {
   animation: GradientAnimation 10s ease infinite;
 }
 
-/*reverse animation for the Main button */
-.animate_rev{
-  background: linear-gradient(270deg, #ff7bac, #00ffff);
-  background-size: 400% 400%;
-
-  -webkit-animation: GradientAnimation 10s ease infinite;
-  -moz-animation: GradientAnimation 10s ease infinite;
-  animation: GradientAnimation 10s ease infinite;
-}
-
 @-webkit-keyframes GradientAnimation {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
@@ -266,6 +263,6 @@ ul.social-buttons li a:active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: #00ffff;
+  background-color: purple;
   border-color: black;
 }
