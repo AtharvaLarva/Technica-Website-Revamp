@@ -257,12 +257,13 @@ ul.social-buttons li a:active {
   background-color: #ff7bac;
 }
 
+/* sets hover colors for btn-xl */
 .btn-xl:hover,
 .btn-xl:focus,
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: purple;
+  background-color: red;
   border-color: black;
 }
