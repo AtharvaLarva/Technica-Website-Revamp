@@ -58,7 +58,6 @@ h1,h2,h3,h4,h5,h6 {
 /* changes navbar hover color to white */
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  transform: scale(1.1, 1.1); /** default is 1, scale it to 1.5 */
   color: white;
   outline: none;
 }
@@ -104,6 +103,9 @@ section h3.section-subheading {
 
 section#contact ::-webkit-input-placeholder {
   font-family: 'DINPro', 'Helvetica', 'sans-serif'
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #808080;
 }
 
 section#contact :-moz-placeholder {
@@ -126,11 +128,11 @@ footer span.copyright {
 }
 
 footer ul.quicklinks {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'DINPro', 'Helvetica', 'sans-serif'
 }
 
 .portfolio-modal .modal-content p.item-intro {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'DINPro', 'Helvetica', 'sans-serif'
 }
 
 p{
@@ -138,7 +140,7 @@ p{
 }
 
 header .intro-text .intro-lead-in {
-  font-family: DINPro;
+  font-family: 'DINPro';
   font-size: 20px;
   line-height: 20px;
   margin-bottom: 25px;
@@ -148,7 +150,7 @@ header .intro-text .intro-heading {
   margin-bottom: 15px;
 }
 
-/* Changes navbar settings to Technica colors */
+/* Supresses navbar hover colors */
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
@@ -265,5 +267,10 @@ ul.social-buttons li a:active {
 .open .dropdown-toggle.btn-xl {
   color: white;
   background-color: red;
-  border-color: black;
+  border-color: red;
+}
+
+.form-control{
+  font-size: 16px;
+  font-family:'DINPro', 'Helvetica', 'sans-serif'
 }
