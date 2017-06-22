@@ -20,7 +20,7 @@ $(function() {
             }
             $.ajax({
                 /* using formspree to send forms from contact me page */
-                url: 'https://formspree.io/abhat98@gmail.com',
+                url: 'https://formspree.io/abhat1@terpmail.umd.edu',
                 type: 'POST',
                 data: {
                     name: name,
