@@ -38,7 +38,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .navbar-custom .navbar-brand {
   font-family: 'DINPro', 'Helvetica', 'sans-serif' ;
-    color: white;
+  color: white;
 }
 
 /* changes mobile navbar background color to pink */
@@ -51,7 +51,6 @@ h1,h2,h3,h4,h5,h6 {
 /* changes font of list elements in navbar, smooths expansion hover animation*/
 .navbar-custom .nav li a {
   font-family: 'DINPro', 'Helvetica', 'sans-serif' ;
-  transition: 0.3s ease;
   cursor: pointer;
 }
 
@@ -62,14 +61,6 @@ h1,h2,h3,h4,h5,h6 {
   outline: none;
 }
 
-
-header .intro-text .intro-lead-in {
-  font-family: 'DINPro', 'Helvetica', 'sans-serif' ;
-}
-
-header .intro-text .intro-heading {
-  font-family: 'DINPro-Bold', 'Helvetica', 'sans-serif' ;
-}
 
 @media (min-width: 768px) {
   header .intro-text {
@@ -147,6 +138,7 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
+  font-family: 'DINPro-Bold', 'Helvetica', 'sans-serif' ;
   margin-bottom: 15px;
 }
 
