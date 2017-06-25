@@ -153,10 +153,23 @@ fieldset[disabled] .btn-primary.active {
   color: #fed136;
   background-color: white;
 }
-.btn-xl {
 
+#sendButton{
+  background-color:#ff7bac;
+}
+
+#sendButton:hover,
+#sendButton:focus,
+#sendButton:active,
+#sendButton.active,
+.open .dropdown-toggle.btn-xl{
+  background-color:#ff7bac;
+  opacity:0.8;
+}
+
+.btn-xl {
   font-family: 'DINPro', 'Helvetica', 'sans-serif' ;
-  background-color: red;
+  background-color: purple;
   color: white;
   text-transform: uppercase;
   font-weight: 700;
@@ -171,8 +184,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: red;
-  border-color: red;
+  background-color: purple;
+  border-color: none;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -289,7 +302,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  /*background-image: url('../img/header-bg.jpg');*/
+  background-image: url('../img/header-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -812,6 +825,10 @@ body {
 
 .panel-default > .panel-heading-pink {
     background: #ff7bac; color: black;
+}
+
+.panel-default > .panel-heading-lavender {
+    background: #b6a1c4; color: black;
 }
 
 /* changes panel heading hover colors */
