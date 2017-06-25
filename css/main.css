@@ -163,7 +163,7 @@ fieldset[disabled] .btn-primary.active {
   border-radius: 3px;
   font-size: 18px;
   padding: 20px 40px;
-  margin:2px 5px;
+  margin:2px 2px;
 }
 .btn-xl:hover,
 .btn-xl:focus,
@@ -207,6 +207,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-brand {
   font-family: 'DINPro', 'Helvetica', 'sans-serif' ;
+  float:left;
   color: white;
 }
 .navbar-custom .navbar-brand:hover,
