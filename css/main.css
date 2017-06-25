@@ -16,9 +16,9 @@
    src: url('../fonts/DINPro-Bold.otf');
  }
 
- #main-nav{
+ /*#main-nav{
    background-color: #ff7bac;
- }
+ }*/
 
  /* Animates main section of the website */
  .animate{
@@ -163,6 +163,7 @@ fieldset[disabled] .btn-primary.active {
   border-radius: 3px;
   font-size: 18px;
   padding: 20px 40px;
+  margin:2px 5px;
 }
 .btn-xl:hover,
 .btn-xl:focus,
@@ -227,7 +228,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #fed136;
+  background-color: #ff7bac;
 }
 .navbar-custom .nav li a {
   font-family: 'DINPro', 'Helvetica', 'sans-serif' ;
@@ -246,6 +247,12 @@ fieldset[disabled] .btn-xl.active {
   border-radius: 0;
   color: white;
   background-color: #ff7bac;
+}
+
+#home-link {
+  border-radius: 0;
+  color: white;
+  background-color: inherit;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
