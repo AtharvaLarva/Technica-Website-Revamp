@@ -67,11 +67,11 @@ body {
   color: #fed136;
 }
 p {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.75;
 }
 p.large {
-  font-size: 16px;
+  font-size: 20px;
 }
 a,
 a:hover,
@@ -365,7 +365,6 @@ section h3.section-subheading {
   font-size: 16px;
   font-family: 'DINPro-Bold', 'Helvetica', 'sans-serif' ;
   text-transform: none;
-  font-style: italic;
   font-weight: 400;
   margin-bottom: 75px;
 }
@@ -448,6 +447,9 @@ section h3.section-subheading {
   padding: 0;
   position: relative;
 }
+.timeline-text{
+  font-size: 18px;
+}
 .timeline:before {
   top: 0;
   bottom: 0;
@@ -500,7 +502,7 @@ section h3.section-subheading {
   background-color: #ff7bac;
   color: white;
   border-radius: 100%;
-  border: 7px solid #f1f1f1;
+  border: 7px solid #00ffff;
   text-align: center;
 }
 .timeline > li .timeline-image h4 {
@@ -630,7 +632,7 @@ aside.clients img {
   margin: 50px auto;
 }
 section#contact {
-  background-color: #222222;
+  background-color: #464343;
   background-image: url('../img/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
