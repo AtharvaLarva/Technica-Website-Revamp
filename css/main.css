@@ -30,6 +30,16 @@
    animation: GradientAnimation 10s ease infinite;
  }
 
+ /* Animates hovering over buttons */
+ .animate-button:hover{
+   background: linear-gradient(270deg, #00ffff, #ff7bac);
+   background-size: 400% 400%;
+
+   -webkit-animation: GradientAnimation 5s ease infinite;
+   -moz-animation: GradientAnimation 5s ease infinite;
+   animation: GradientAnimation 5s ease infinite;
+ }
+
  @-webkit-keyframes GradientAnimation {
      0%{background-position:0% 50%}
      50%{background-position:100% 50%}
@@ -164,7 +174,7 @@ fieldset[disabled] .btn-primary.active {
 #sendButton.active,
 .open .dropdown-toggle.btn-xl{
   background-color:#ff7bac;
-  opacity:0.8;
+  opacity:0.9;
 }
 
 .btn-xl {
@@ -720,6 +730,26 @@ ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
   background-color: #ff7bac;
+}
+.social-twitter:hover,
+.social-twitter:focus,
+.social-twitter:active {
+  color: #55acee;
+}
+.social-facebook:hover,
+.social-facebook:focus,
+.social-facebook:active {
+  color: #3b5998;
+}
+.social-instagram:hover,
+.social-instagram:focus,
+.social-instagram:active {
+  color: #8a3ab9;
+}
+.social-mail:hover,
+.social-mail:focus,
+.social-mail:active {
+  color: #f9da96;
 }
 .btn:focus,
 .btn:active,
