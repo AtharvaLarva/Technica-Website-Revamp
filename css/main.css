@@ -83,20 +83,31 @@ p {
 p.large {
   font-size: 20px;
 }
-a,
-a:hover,
-a:focus,
-a:active,
-a.active {
-  outline: none;
+
+/* in text links */
+a.in-text{
+  text-decoration: underline;
+  color: purple;
 }
-a {
+
+a.in-text:hover,
+a.in-text:focus,
+a.in-text:active,
+a.in-text:active {
+  color: purple;
+  text-decoration:underline;
+}
+
+/* styles FAQ panel links. These need to be different from standard HTML links! */
+a.faq-panel {
   color: inherit;
+  text-decoration: none;
+
 }
-a:hover,
-a:focus,
-a:active,
-a.active {
+a.faq-panel:hover,
+a.faq-panel:focus,
+a.faq-panel:active,
+a.faq-panel:active {
   color: inherit;
   text-decoration:underline;
 }
@@ -186,7 +197,7 @@ fieldset[disabled] .btn-primary.active {
   border-radius: 3px;
   font-size: 18px;
   padding: 20px 40px;
-  margin:2px 2px;
+  margin:3px 5px;
 }
 .btn-xl:hover,
 .btn-xl:focus,
@@ -642,8 +653,8 @@ aside.clients img {
   margin: 50px auto;
 }
 section#contact {
-  background-color: #464343;
-  background-image: url('../img/map-image.png');
+  background-color: #b6a1c4;
+  /*background-image: url('../img/map-image.png');*/
   background-position: center;
   background-repeat: no-repeat;
 }
