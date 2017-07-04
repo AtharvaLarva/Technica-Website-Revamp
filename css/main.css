@@ -535,7 +535,7 @@ section h3.section-subheading {
   background-color: #ff7bac;
   color: white;
   border-radius: 100%;
-  border: 4px solid gray;
+  /*border: 4px solid gray;*/
   text-align: center;
 }
 .timeline > li .timeline-image h4 {
