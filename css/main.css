@@ -197,7 +197,7 @@ fieldset[disabled] .btn-primary.active {
   border-radius: 3px;
   font-size: 18px;
   padding: 20px 40px;
-  margin:3px 5px;
+  margin:5px 5px;
 }
 .btn-xl:hover,
 .btn-xl:focus,
@@ -206,6 +206,11 @@ fieldset[disabled] .btn-primary.active {
 .open .dropdown-toggle.btn-xl {
   color: white;
   background-color: #00ffff;
+
+  /*eases button hover transtion */
+  transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
   border-color: none;
 }
 .btn-xl:active,
@@ -476,16 +481,23 @@ section h3.section-subheading {
 }
 .timeline-text{
   font-size: 18px;
+  color: #464343;
 }
 .timeline:before {
   top: 0;
   bottom: 0;
   position: absolute;
   content: "";
-  width: 2px;
-  background-color: #f1f1f1;
+  width: 3px;
   left: 40px;
   margin-left: -1.5px;
+  background: #dcdcdc;
+  /* gradient background on timeline */
+  /*background: #00ffff; /
+  background: -webkit-linear-gradient(#00ffff, #ff7bac);
+  background: -o-linear-gradient(#00ffff, #ff7bac);
+  background: -moz-linear-gradient(#00ffff, #ff7bac);
+  background: linear-gradient(#00ffff, #ff7bac); */
 }
 .timeline > li {
   margin-bottom: 50px;
@@ -526,10 +538,10 @@ section h3.section-subheading {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #ff7bac;
+  background-color: #dcdcdc;
   color: white;
   border-radius: 100%;
-  border: 7px solid #00ffff;
+  border: 3px solid #464343;
   text-align: center;
 }
 .timeline > li .timeline-image h4 {
@@ -659,8 +671,7 @@ aside.clients img {
   margin: 50px auto;
 }
 section#contact {
-  background-color: #b6a1c4;
-  /*background-image: url('../img/map-image.png');*/
+  background-color: #00E6E6;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -710,8 +721,10 @@ section#contact .text-danger {
   color: #e74c3c;
 }
 footer {
-  padding: 25px 0;
+  padding: 50px 0;
   text-align: center;
+  background-color: black;
+  color:white;
 }
 footer span.copyright {
   line-height: 40px;
@@ -876,20 +889,28 @@ body {
     background: #ff7bac; color: black;
 }
 
-.panel-default > .panel-heading-lavender {
-    background: #b6a1c4; color: black;
-}
 
 /* changes panel heading hover colors */
 .panel-heading:hover{
-  opacity:0.85
+  background:#DCDCDC;
+  transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
 }
+
 .panel-heading-pink:hover {
-  opacity:0.85
+  background: #FFAEDF;
+  transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
 }
 
 .panel-heading-blue:hover {
-  opacity:0.7
+  background: #99FFFF;
+  transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+
 }
 
 .panel-default > .panel-heading-gray {
