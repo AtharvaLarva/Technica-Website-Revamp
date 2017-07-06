@@ -482,16 +482,16 @@ section h3.section-subheading {
   bottom: 0;
   position: absolute;
   content: "";
-  width: 4px;
+  width: 3px;
   left: 40px;
   margin-left: -1.5px;
-
+  background: #dcdcdc;
   /* gradient background on timeline */
-  background: #00ffff; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#00ffff, #ff7bac); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#00ffff, #ff7bac); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#00ffff, #ff7bac); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#00ffff, #ff7bac); /* Standard syntax (must be last) */
+  /*background: #00ffff; /
+  background: -webkit-linear-gradient(#00ffff, #ff7bac);
+  background: -o-linear-gradient(#00ffff, #ff7bac);
+  background: -moz-linear-gradient(#00ffff, #ff7bac);
+  background: linear-gradient(#00ffff, #ff7bac); */
 }
 .timeline > li {
   margin-bottom: 50px;
@@ -532,10 +532,10 @@ section h3.section-subheading {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #ff7bac;
+  background-color: #dcdcdc;
   color: white;
   border-radius: 100%;
-  /*border: 4px solid gray;*/
+  border: 3px solid #464343;
   text-align: center;
 }
 .timeline > li .timeline-image h4 {
