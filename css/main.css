@@ -190,7 +190,7 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
   font-family: 'DINPro', 'Helvetica', 'sans-serif' ;
-  /*background-color: purple;*/
+  background-color: purple;
   color: white;
   text-transform: uppercase;
   font-weight: 700;
@@ -205,7 +205,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: #00ffff;
+  background-color: #B333B3;
 
   /*eases button hover transtion */
   transition: all ease 0.3s;
@@ -541,7 +541,7 @@ section h3.section-subheading {
   background-color: #dcdcdc;
   color: white;
   border-radius: 100%;
-  border: 3px solid #464343;
+  /*border: 3px solid #464343;*/
   text-align: center;
 }
 .timeline > li .timeline-image h4 {
