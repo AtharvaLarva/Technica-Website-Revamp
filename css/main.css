@@ -190,7 +190,7 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
   font-family: 'DINPro', 'Helvetica', 'sans-serif' ;
-  background-color: purple;
+  /*background-color: purple;*/
   color: white;
   text-transform: uppercase;
   font-weight: 700;
@@ -205,7 +205,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: #B333B3;
+  background-color: #00ffff;
 
   /*eases button hover transtion */
   transition: all ease 0.3s;
@@ -286,13 +286,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
-  background-color: #ff7bac;
+  /*background-color: #ff7bac;*/
+  background: linear-gradient(270deg, #00ffff, #ff7bac);
+  background-size: 400% 400%;
+
+  -webkit-animation: GradientAnimation 10s ease infinite;
+  -moz-animation: GradientAnimation 10s ease infinite;
+  animation: GradientAnimation 10s ease infinite;
 }
 
 #home-link {
   border-radius: 0;
   color: white;
-  background-color: inherit;
+  background: none;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
@@ -739,11 +745,11 @@ ul.social-buttons {
 ul.social-buttons li a {
   display: block;
   background-color: #222222;
-  height: 40px;
-  width: 40px;
+  height: 3em;
+  width: 3em;
   border-radius: 100%;
-  font-size: 20px;
-  line-height: 40px;
+  font-size: 1.5em;
+  line-height: 3.7em;
   color: white;
   outline: none;
   -webkit-transition: all 0.3s;
