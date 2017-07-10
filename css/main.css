@@ -30,6 +30,14 @@
    animation: GradientAnimation 10s ease infinite;
  }
 
+ .static-gradient{
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #ff7bac , #00ffff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #ff7bac , #00ffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #ff7bac , #00ffff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #ff7bac , #00ffff); /* Standard syntax */
+ }
+
  /* Animates hovering over buttons */
  .animate-button:hover{
    background: linear-gradient(270deg, #00ffff, #ff7bac);
@@ -489,6 +497,7 @@ section h3.section-subheading {
   position: absolute;
   content: "";
   width: 3px;
+  /*height:1550px;*/
   left: 40px;
   margin-left: -1.5px;
   background: #dcdcdc;
@@ -580,9 +589,18 @@ section h3.section-subheading {
 .timeline .timeline-body > ul {
   margin-bottom: 0;
 }
+
+@media (max-width: 320px){
+  .timeline:before {
+    /*left: 50%;*/
+    height:1550px;
+  }
+}
+
 @media (min-width: 768px) {
   .timeline:before {
     left: 50%;
+
   }
   .timeline > li {
     margin-bottom: 100px;
